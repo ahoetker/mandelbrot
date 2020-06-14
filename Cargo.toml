@@ -5,6 +5,8 @@ authors = ["Andrew Hoetker <andrew@hoetker.engineer>"]
 edition = "2018"
 description = "Rust library for generating images of the Mandelbrot set."
 license = "MIT"
+repository = "https://github.com/ahoetker/mandelbrot"
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
