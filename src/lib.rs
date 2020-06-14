@@ -13,7 +13,7 @@ use rayon::prelude::*;
 /// ```
 /// extern crate nalgebra as na;
 ///
-/// let img = mandelbrot::generate(8, 4f64, 50);
+/// let img = mandelbrot_common::generate(8, 4f64, 50);
 /// let correct = na::Matrix5::from_row_slice(&[
 ///     253, 253, 252, 252, 252,
 ///     253, 252, 252, 251, 205,
