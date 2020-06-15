@@ -57,7 +57,6 @@ pub fn generate(n: usize, threshold: f64, max_steps: u8) -> Array2<u8> {
         })
         .collect();
 
-    // na::DMatrix::from_vec(x_upper, y_upper - y_lower, vec_storage)
     Array2::from_shape_vec((x_upper, y_upper - y_lower), vec_storage).unwrap()
 }
 
