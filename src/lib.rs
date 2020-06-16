@@ -48,7 +48,7 @@ pub fn generate(n: usize, threshold: f64, max_steps: u8) -> Array2<u8> {
     let vec_storage: Vec<u8> = (x_lower..x_upper)
         .flat_map(move |x| {
             (y_lower..y_upper).map(move |y| {
-                let c = na::Complex {
+                let c = Complex {
                     re: 4f64 * (x as f64 - n as f64 / 2f64) / n as f64,
                     im: 4f64 * (y as f64 - n as f64 / 2f64) / n as f64,
                 };
